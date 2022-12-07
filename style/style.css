@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+main  section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+main section > div.image {
+    background-image: url('../images/image-qr-code.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 240px;
+    border-radius: 12px;
+}
+
+main section > div.content {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+main section > div.content > p {
+    font-size: 1.1em;
+    color: rgb(174, 174, 174);
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.attribution {
+    display: none;
+}
