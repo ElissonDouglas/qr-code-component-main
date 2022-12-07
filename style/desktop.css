@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@media screen and (min-width: 500px) {
+    body {
+        background-image: url('../images/pexels-scott-webb-3255761.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    main {
+        width: 80vw;
+        height: 70%;
+        background-color: hsl(212, 45%, 89%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.161);
+    }
+    
+    main section > div.image {
+        height: 290px;
+    }
+    
+    main section {
+        width: 300px;
+        height: 450px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.161);
+    }
+    
+}
+
