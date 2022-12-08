@@ -22,21 +22,26 @@ main {
     transition-timing-function: ease;
 }
 
-main  section {
+main h1{
+    display: none;
+}
+
+main > section {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80vw;
-    height: 400px;
+    min-height: 400px;
+    max-width: 450px;
     background-color: white;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.161);
 }
 
 
-main section > div.image {
+/* main section > div.image {
     background-image: url('../images/image-qr-code.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,6 +49,16 @@ main section > div.image {
     width: 100%;
     height: 240px;
     border-radius: 12px;
+} */
+
+main section > div.image {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+main img {
+    width: 100%;
 }
 
 main section > div.content {
@@ -59,6 +74,10 @@ main section > div.content > p {
     font-weight: bold;
 }
 
-.attribution {
-    display: none;
+footer {
+    text-align: center;
+    position: absolute; 
+    bottom: 1%;  
+    left: 0;  
+    right: 0;
 }
