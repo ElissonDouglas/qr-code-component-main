@@ -1,6 +1,7 @@
 # Frontend Mentor - QR code component
 
-## Challenge from: https://www.frontendmentor.io/
+## Challenge from: [Frontend Mentor](https://www.frontendmentor.io/)
+## [Click here to see my solved challenge](https://elissondouglas.github.io/qr-code-component-main/)
 ***
 
 # 🖥 Desktop
